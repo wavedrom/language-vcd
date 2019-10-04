@@ -1,0 +1,10 @@
+'.source.vcd':
+  'editor':
+    'commentStart': '// '
+  'bracket-matcher':
+    autocompleteCharacters: [
+      '()'
+      '[]'
+      '{}'
+      '""'
+    ]

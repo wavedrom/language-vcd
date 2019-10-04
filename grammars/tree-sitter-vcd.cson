@@ -1,0 +1,30 @@
+name: 'ValueChangeDump'
+scopeName: 'source.vcd'
+type: 'tree-sitter'
+parser: 'tree-sitter-verilog/vcd'
+
+fileTypes: ['vcd']
+
+scopes:
+  ERROR: 'invalid.illegal.underline'
+
+  '"$version"': 'keyword.control'
+  '"$date"': 'keyword.control'
+  '"$timescale"': 'keyword.control'
+  '"$var"': 'keyword.control'
+  '"$end"': 'keyword.control'
+  '"$scope"': 'keyword.control'
+  '"$upscope"': 'keyword.control'
+  '"$enddefinitions"': 'keyword.control'
+  '"#"': 'keyword.control'
+
+  var_type: 'support.storage.type'
+  scope_type: 'support.storage.type'
+
+  identifier: 'variable'
+  scope_identifier: 'variable'
+
+  time_number: 'constant.numeric'
+  decimal_number: 'constant.numeric'
+  binary_number: 'constant.numeric'
+  value: 'constant.numeric'

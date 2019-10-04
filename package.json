@@ -1,0 +1,25 @@
+{
+  "name": "language-vcd",
+  "version": "0.1.0",
+  "description": "VCD language support in Atom",
+  "main": "lib/main",
+  "keywords": [
+    "tree-sitter",
+    "vcd"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wavedrom/language-vcd"
+  },
+  "bugs": {
+    "url": "https://github.com/wavedrom/language-vcd/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "dependencies": {
+    "tree-sitter-vcd": "^0.1.0"
+  }
+}
