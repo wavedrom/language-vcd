@@ -1,7 +1,7 @@
 name: 'ValueChangeDump'
 scopeName: 'source.vcd'
 type: 'tree-sitter'
-parser: 'tree-sitter-verilog/vcd'
+parser: 'tree-sitter-vcd'
 
 fileTypes: ['vcd']
 
