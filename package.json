@@ -20,6 +20,6 @@
     "node": "*"
   },
   "dependencies": {
-    "tree-sitter-vcd": "^0.1.0"
+    "tree-sitter-vcd": "^0.1.2"
   }
 }
