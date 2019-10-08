@@ -1,6 +1,6 @@
 {
   "name": "language-vcd",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "VCD language support in Atom",
   "main": "lib/main",
   "keywords": [
